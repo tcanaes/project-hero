@@ -1,0 +1,60 @@
+#alert-container {
+  border: 1px solid darkgray;
+  background-color: lightgray;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  position: fixed;
+  bottom: 0;
+  text-align: center;
+  right: 10%;
+  left: 10%;
+  display: none;
+}
+
+#alert-message,
+#alert-message:after {
+  margin: 0;
+  padding: 0;
+}
+
+#game-canvas {
+  border: 2px solid red;
+  background: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+#login-form {
+  border: 1px solid black;
+  border-radius: 1rem;
+  width: 20rem;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: lightgray;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#login-form * {
+  width: 10rem;
+  margin: 1rem 0;
+}
+
+#login-form input[type='submit'] {
+  height: 3rem;
+}
+
+#join-xbtn {
+  width: 300px;
+  height: 100px;
+  font-weight: bold;
+  font-size: 2rem;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}

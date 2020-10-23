@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Project Hero - by TCanaes</title>
+    <link rel="stylesheet" href="./css/styles.css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.3.1/socket.io.js"></script>
+    <script src="./js/client.js"></script>
+    <script src="./js/authentication.js"></script>
+  </head>
+  <body>
+    <form id="login-form">
+      <input
+        id="username"
+        name="username"
+        type="text"
+        placeholder="User Name"
+      />
+      <input type="submit" id="join-btn" value="JOIN GAME" />
+      <input type="submit" id="sign-btn" value="SIGN UP" />
+    </form>
+    <canvas id="game-canvas" width="1366" height="768" hidden></canvas>
+    <div id="alert-container">
+      <p id="alert-message"></p>
+    </div>
+  </body>
+</html>
